@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "foto": "img/nissan-gtr.png",
+    "modelo": "Nissan GT-R",
+    "anio": 2016,
+    "marca": "Nissan",
+    "precio": 450000,
+    "caracteristicas": {
+      "tipo": "Super deportivo",
+      "carroceria": "Coupé dos puertas",
+      "peso": "1740 Kg",
+      "motor": "V6 DOHC 3.8L"
+    }
+  },
+  {
+    "id": 2,
+    "foto": "img/audi-r8.png",
+    "modelo": "Audi R8",
+    "anio": 2016,
+    "marca": "Audi",
+    "precio": 350000,
+    "caracteristicas": {
+      "tipo": "Super deportivo",
+      "carroceria": "Coupé dos puertas",
+      "peso": "1600 Kg",
+      "motor": " V8 de 4.2L y V10 de 5.2L"
+    }
+  },
+  {
+    "id": 3,
+    "foto": "img/ferrari-458.png",
+    "modelo": "Ferrari 458 Italia",
+    "anio": 2015,
+    "marca": "Ferrari",
+    "precio": 150000000,
+    "caracteristicas": {
+      "tipo": "Super deportivo",
+      "carroceria": "Berlinetta dos puertas",
+      "peso": "1380 Kg",
+      "motor": " V8 de 4.5L"
+    }
+  },
+  {
+    "id": 4,
+    "foto": "img/pagani-huarya.png",
+    "modelo": "Pagani Huayra",
+    "anio": 2016,
+    "marca": "Pagani",
+    "precio": 560000,
+    "caracteristicas": {
+      "tipo": "Super deportivo",
+      "carroceria": "Coupé dos puertas",
+      "peso": "1400 Kg",
+      "motor": " Mercedes-AMG V12 Bi-Turbo M158"
+    }
+  },
+  {
+    "id": 5,
+    "foto": "img/porsche.png",
+    "modelo": "Porsche 911 GT3 RS",
+    "anio": 2016,
+    "marca": "Porsche",
+    "precio": 450000,
+    "caracteristicas": {
+      "tipo": "Deportivo",
+      "carroceria": "Coupé dos puertas",
+      "peso": "1270 Kg",
+      "motor": " V6"
+    }
+  },
+  {
+    "id": 6,
+    "foto": "img/nissan-calsonic-gtr.png",
+    "modelo": "Nissan Calsonic GT-R",
+    "anio": 2016,
+    "marca": "Nissan Calsonic",
+    "precio": 450000,
+    "caracteristicas": {
+      "tipo": "Super deportivo",
+      "carroceria": "Coupé dos puertas",
+      "peso": "1740 Kg",
+      "motor": "V6 DOHC 3.8L"
+    }
+  }
+]

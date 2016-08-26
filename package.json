@@ -1,0 +1,19 @@
+{
+  "name": "catalogo-automoviles",
+  "version": "1.0.0",
+  "description": "Catalogo de automoviles que permite mostrar información y comparar dos vehiculos a la vez",
+  "main": "server.js",
+  "scripts": {
+    "test": "jshint server.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "AngularJs"
+  ],
+  "author": "Carlos Linares",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0"
+  }
+}

@@ -1,0 +1,15 @@
+.seleccionado {
+  background-color: purple;
+  color: white;
+}
+
+.collapsible p {
+  font-weight: 700;
+}
+
+.svg {
+  width: 0.7em;
+  height: 1em;
+  margin-left: 0.3em;
+  margin-top: 0.3em;
+}

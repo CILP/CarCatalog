@@ -1,0 +1,45 @@
+<div class="">
+  <h3>{{car.modelo}}</h3>
+
+  <div class="row">
+    <div class="col s12 m12">
+      <img class="materialboxed responsive-img" ng-src="{{car.foto}}" image-zoom style="width: 100%;" />
+    </div>
+    <div class="col s12 m12">
+      <ul class="collapsible" data-collapsible="accordion" acordion>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">turned_in</i>Modelo</div>
+          <div class="collapsible-body"><p>{{car.modelo}}</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">perm_identity</i>Marca</div>
+          <div class="collapsible-body"><p>{{car.marca}}</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">today</i>Año</div>
+          <div class="collapsible-body"><p>{{car.anio}}</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">shopping_cart</i>Precio</div>
+          <div class="collapsible-body"><p>MXN {{car.precio | currency:'$':2}}</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">description</i>Tipo</div>
+          <div class="collapsible-body"><p>{{car.caracteristicas.tipo}}</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">description</i>Carroceria</div>
+          <div class="collapsible-body"><p>{{car.caracteristicas.carroceria}}</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">description</i>Peso</div>
+          <div class="collapsible-body"><p>{{car.caracteristicas.peso}}</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">description</i>Motor</div>
+          <div class="collapsible-body"><p>{{car.caracteristicas.motor}}</p></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vehiculos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lib/materialize/dist/css/materialize.min.css">
+
+    <!-- Import css/cars.css -->
+    <link type="text/css" rel="stylesheet" href="css/cars.css">
+  </head>
+  <body ng-app="appVehiculos">
+    <div class="navbar-fixed">
+      <nav class="purple darken-3">
+        <div class="nav-wrapper">
+          <a href="/#/" class="brand-logo center">Deportivos</a>
+          <a data-activates="mobile-demo" class="button-collapse" collapse-menu>
+            <i class="material-icons">
+              <img src="img/menu.svg" class="svg" />
+            </i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/#/">Vehiculos</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="/#/">Vehiculos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div ng-view class="container"></div>
+
+    <!-- Dependencies -->
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-route/angular-route.min.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/materialize/dist/js/materialize.min.js"></script>
+
+    <!-- Module Config -->
+    <script src="config/vehiculos.module.js"></script>
+
+    <!-- Module Services -->
+    <script src="services/cars.service.js"></script>
+    <script src="services/compare-cars.service.js"></script>
+
+    <!-- Module Directives -->
+    <script src="directives/acordion.directive.js"></script>
+    <script src="directives/image-zoom.directive.js"></script>
+    <script src="directives/collapse-menu.directive.js"></script>
+    <script src="directives/comparative.directive.js"></script>
+
+    <!-- Module Controllers -->
+    <script src="controllers/car.controller.js"></script>
+    <script src="controllers/car-description.controller.js"></script>
+    <script src="controllers/car-compare.controller.js"></script>
+  </body>
+</html>
