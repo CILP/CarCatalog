@@ -1,5 +1,5 @@
 {
-  "name": "catalogo-automoviles",
+  "name": "car-catalog",
   "description": "Catalogo de automoviles que permite mostrar información y comparar dos vehiculos a la vez",
   "main": "server.js",
   "authors": [
