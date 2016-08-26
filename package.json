@@ -1,5 +1,5 @@
 {
-  "name": "catalogo-automoviles",
+  "name": "car-catalog",
   "version": "1.0.0",
   "description": "Catalogo de automoviles que permite mostrar información y comparar tres vehiculos a la vez",
   "main": "server.js",
